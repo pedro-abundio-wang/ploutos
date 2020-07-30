@@ -3,55 +3,61 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
+  - asgiref=3.2.10=py_0
+  - astroid=2.4.2=py38_0
   - attrs=19.3.0=py_0
   - automat=20.2.0=py_0
-  - bcrypt=3.1.7=py36h8c4c3a4_1
-  - ca-certificates=2020.6.20=hecda079_0
-  - certifi=2020.6.20=py36h9f0ad1d_0
-  - cffi=1.14.0=py36hd463f26_0
+  - bcrypt=3.1.7=py38h9de7a3e_1
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py38_0
+  - cffi=1.14.1=py38hba49e27_0
+  - colorama=0.4.3=py_0
   - constantly=15.1.0=py_0
-  - cryptography=3.0=py36h45558ae_0
+  - cryptography=3.0=py38hba49e27_0
   - cssselect=1.1.0=py_0
+  - django=3.0.3=py_0
   - hyperlink=19.0.0=pyh9f0ad1d_0
-  - icu=67.1=he1b5a44_0
   - idna=2.10=pyh9f0ad1d_0
   - incremental=17.5.0=py_0
+  - isort=4.3.21=py38_0
   - itemadapter=0.1.0=py_0
-  - libedit=3.1.20191231=h14c3975_1
-  - libffi=3.2.1=hd88cf55_4
-  - libgcc-ng=9.1.0=hdf63c60_0
-  - libiconv=1.15=h516909a_1006
-  - libstdcxx-ng=9.1.0=hdf63c60_0
-  - libxml2=2.9.10=h72b56ed_1
-  - libxslt=1.1.33=h572872d_1
-  - lxml=4.5.2=py36h17c4326_0
-  - ncurses=6.2=he6710b0_1
-  - openssl=1.1.1g=h516909a_0
+  - lazy-object-proxy=1.4.3=py38he774522_0
+  - libiconv=1.15=hfa6e2cd_1006
+  - libxml2=2.9.10=h5d81f1c_2
+  - libxslt=1.1.33=h579f668_1
+  - lxml=4.5.2=py38he3d0fc9_0
+  - mccabe=0.6.1=py38_1
+  - openssl=1.1.1g=he774522_0
   - parsel=1.6.0=py_0
-  - pip=20.1.1=py36_1
+  - pip=20.1.1=py38_1
   - protego=0.1.16=py_0
   - pyasn1=0.4.8=py_0
   - pyasn1-modules=0.2.7=py_0
   - pycparser=2.20=pyh9f0ad1d_2
   - pydispatcher=2.0.5=py_1
   - pyhamcrest=2.0.2=py_0
+  - pylint=2.5.3=py38_0
   - pyopenssl=19.1.0=py_1
-  - python=3.6.9=h265db76_0
-  - python_abi=3.6=1_cp36m
+  - python=3.8.3=he1778fa_2
+  - python_abi=3.8=1_cp38
+  - pytz=2020.1=py_0
+  - pywin32=227=py38hfa6e2cd_0
   - queuelib=1.5.0=pyh9f0ad1d_0
-  - readline=7.0=h7b6447c_5
-  - scrapy=2.2.0=py36h9f0ad1d_0
+  - scrapy=2.2.0=py38h32f6830_0
   - service_identity=18.1.0=py_0
-  - setuptools=49.2.0=py36_0
+  - setuptools=49.2.0=py38_0
   - six=1.15.0=pyh9f0ad1d_0
-  - sqlite=3.32.3=h62c20be_0
-  - tk=8.6.10=hbc83047_0
-  - twisted=20.3.0=py36h8c4c3a4_0
+  - sqlite=3.32.3=h2a8f88b_0
+  - sqlparse=0.3.1=py_0
+  - toml=0.10.1=py_0
+  - twisted=20.3.0=py38h9de7a3e_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_3
   - w3lib=1.22.0=pyh9f0ad1d_0
-  - wheel=0.34.2=py36_0
-  - xz=5.2.5=h7b6447c_0
-  - zlib=1.2.11=h7b6447c_3
-  - zope.interface=5.1.0=py36h8c4c3a4_0
-prefix: /home/pedro/anaconda3/envs/ploutos
+  - wheel=0.34.2=py38_0
+  - wincertstore=0.2=py38_0
+  - wrapt=1.11.2=py38he774522_0
+  - zlib=1.2.11=h62dcd97_4
+  - zope.interface=5.1.0=py38h9de7a3e_0
+prefix: F:\anaconda3\envs\ploutos
 
