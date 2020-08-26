@@ -6,7 +6,8 @@ class Share(models.Model):
     code = models.CharField(max_length=16, primary_key=True)
     name = models.CharField(max_length=16)
     industry = models.CharField(max_length=16)
-
+    def __str__(self):
+        return self.code
 
     
 class YearReport(models.Model):
@@ -24,4 +25,3 @@ class YearReport(models.Model):
     gross_rate = models.CharField(max_length=16)
     distribution = models.CharField(max_length=16)
     publish_date = models.CharField(max_length=16)
-
